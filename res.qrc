@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="images">
+    <file>img/fanzha.jpg</file>
+    <file>img/game.jpg</file>
+  </qresource>
+</RCC>

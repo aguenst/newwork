@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>758</width>
+    <height>477</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>10</y>
+     <width>761</width>
+     <height>441</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(240, 250, 255);</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QFrame" name="frame_2">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>100</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item alignment="Qt::AlignTop">
+        <widget class="QFrame" name="frame_4">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <item>
+           <widget class="QPushButton" name="RedCButton">
+            <property name="styleSheet">
+             <string notr="true">
+
+QPushButton{
+	color: rgb(255, 255, 255);
+	background-color: rgb(200, 13, 0);
+	
+}
+QPushButton:pressed{
+	padding-left:3px;
+	padding-top:3px;
+}
+c</string>
+            </property>
+            <property name="text">
+             <string>点我</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="GreenCButton">
+            <property name="styleSheet">
+             <string notr="true">
+
+QPushButton{
+	background-color: rgb(0, 170, 0);
+	color: rgb(255, 255, 255);
+	
+}
+QPushButton:pressed{
+	padding-left:3px;
+	padding-top:3px;
+}
+</string>
+            </property>
+            <property name="text">
+             <string>别选他，选我</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="BlueCButton">
+            <property name="styleSheet">
+             <string notr="true">
+
+QPushButton{
+	background-color: rgb(0, 85, 255);
+	color: rgb(255, 255, 255);
+	
+}
+QPushButton:pressed{
+	padding-left:3px;
+	padding-top:3px;
+}
+</string>
+            </property>
+            <property name="text">
+             <string>下反诈app没</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="BlackCButton">
+            <property name="styleSheet">
+             <string notr="true">
+QPushButton{
+	background-color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
+}
+QPushButton:pressed{
+	padding-left:3px;
+	padding-top:3px;
+}
+</string>
+            </property>
+            <property name="text">
+             <string>说的</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QFrame" name="frame_3">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>150</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="QStackedWidget" name="stackedWidget">
+         <property name="currentIndex">
+          <number>0</number>
+         </property>
+         <widget class="QWidget" name="FrameColor">
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 253, 230);</string>
+          </property>
+         </widget>
+         <widget class="QWidget" name="Frame">
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <widget class="QLabel" name="PianLabel">
+           <property name="geometry">
+            <rect>
+             <x>50</x>
+             <y>40</y>
+             <width>321</width>
+             <height>321</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>华文琥珀</family>
+             <pointsize>27</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-image: url(:/images/img/fanzha.jpg);
+color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string>就你
+下载反渣</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+           </property>
+           <property name="margin">
+            <number>15</number>
+           </property>
+           <property name="indent">
+            <number>4</number>
+           </property>
+          </widget>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>
