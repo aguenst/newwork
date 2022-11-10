@@ -128,19 +128,7 @@ QPushButton:pressed{
        <enum>Qt::Horizontal</enum>
       </property>
      </widget>
-<<<<<<< HEAD
-=======
-     <widget class="QTextEdit" name="textEdit">
-      <property name="geometry">
-       <rect>
-        <x>140</x>
-        <y>60</y>
-        <width>241</width>
-        <height>41</height>
-       </rect>
-      </property>
-     </widget>
->>>>>>> 75a5aef (fix:command)
+     
     </widget>
    </widget>
   </widget>
